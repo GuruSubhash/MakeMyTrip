@@ -1,6 +1,6 @@
 redirectsOrigin = "config"
 plugins = []
-functionsDirectory = "D:\\javaScripts\\projects\\Trip\\netlify\\functions"
+functionsDirectory = "D:\\javaScripts\\projects\\Trip\\.netlify\\functions"
 functionsDirectoryOrigin = "config-v1"
 headers = []
 
@@ -14,7 +14,7 @@ publishOrigin = "config"
 commandOrigin = "config"
 base = "D:\\javaScripts\\projects\\Trip"
 command = "npm install"
-functions = "D:\\javaScripts\\projects\\Trip\\netlify\\functions"
+functions = "D:\\javaScripts\\projects\\Trip\\.netlify\\functions"
 
 [build.environment]
 
