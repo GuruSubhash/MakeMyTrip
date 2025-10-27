@@ -1,0 +1,43 @@
+redirectsOrigin = "config"
+plugins = []
+functionsDirectory = "D:\\javaScripts\\projects\\Trip\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
+headers = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "D:\\javaScripts\\projects\\Trip"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "D:\\javaScripts\\projects\\Trip"
+command = "npm install"
+functions = "D:\\javaScripts\\projects\\Trip\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[redirects]]
+from = "/*"
+to = "/.netlify/functions/makeMyTripAPI"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

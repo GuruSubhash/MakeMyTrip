@@ -1,0 +1,9 @@
+[build]
+  functions = "netlify/functions"
+  command = "npm install"
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/makeMyTripAPI"
+  status = 200
